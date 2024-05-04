@@ -2,7 +2,7 @@
 |:-:|:-:|:-:|:-:|
 |![First Image](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/Bits%20and%20Bots%20logo.jpg)|![Second Image](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/Bits%20and%20Bots%20logo.jpg)|![Third Image](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/Bits%20and%20Bots%20logo.jpg)|![Fourth](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/Bits%20and%20Bots%20logo.jpg)|
 
-# Bits-and-Bots-study-group
+# Bits-and-Bots-Study-Group
 
 ## Who are we?
 Bits and Bots is a study group teaching digital archivists coding skills! The group is open to all, the goal being to learn together as a community instead of in isolation.
