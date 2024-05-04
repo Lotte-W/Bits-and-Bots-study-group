@@ -52,7 +52,7 @@
 
 Disclaimer: for the guide and demo I have used the Windows Command Prompt. I have added a table at the end with each command in Windows/Linux/Mac.
 
-<span id="_Toc164795561" class="anchor"></span>*How to start the command prompt?  
+<span id="_Toc164795561" class="anchor"></span>How to start the command prompt?  
 To start the command prompt on Windows, you open the start menu on the left of your taskbar.
 
 <img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image1.png" style="width:4.50943in;height:2.54354in" />
