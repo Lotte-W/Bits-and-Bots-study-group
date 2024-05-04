@@ -22,7 +22,7 @@ The group focusses on two different tracks when it comes to learning. Python and
 ### Python Track
 The python track starts with a focus on installation of the software (considering that limitations on workspace computers and permissions can differ by person), and learning some basic principles. In the other seven modules the focus is on building and expanding this foundation. By creating games such as Guess the Number, Hangman, and Treasure Hunt we work with functions, loops, lists, dictionaries, coordinates, etc. Each module, new concepts are introduced and build further on previous modules. We rely on two important books by Al Sweigart: Automate the Boring Stuff and Invent Your Own Computer Games with Python, both freely available on the internet, which are further supplemented by other resources.
 
-### Front-end Development
+### Front-end Development Track
 The front-end development track is based on skills such as HTML, CSS, and JavaScript. This track also covers collaboration tools such as GitHub, UX, accessibility, and different applications that can be used to create websites. Much of the focus of this track is on the use of Twine as it is possible to incorporate a lot of these skills here. The final goal is to be able to create your own website game that can be shared with others.
 
 ## Our resources
