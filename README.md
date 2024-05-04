@@ -9,7 +9,7 @@ One of the things that makes us different from a normal coding course is to lear
 
 In each learning module there is the opportunity to create a tangible output (in the form of a game) that can be shared in the group or amongst colleagues. This means that you can see immediate results and apply what you've learnt directly to a project. 
 
-There are many exciting games being built at the moment we are hoping to display on this GitHub. Many are specific to the field of preservation and we are hoping to share the output to show how fun working in digital preservation can be. 
+There are many exciting games(https://github.com/Lotte-W/Bits-and-Bots-study-group/Games) being built at the moment we are hoping to display on this GitHub. Many are specific to the field of preservation and we are hoping to share the output to show how fun working in digital preservation can be. 
 
 ## What do we do?
 
