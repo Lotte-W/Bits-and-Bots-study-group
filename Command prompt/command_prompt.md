@@ -55,11 +55,11 @@ Disclaimer: for the guide and demo I have used the Windows Command Prompt. I hav
 <span id="_Toc164795561" class="anchor"></span>How to start the command prompt?  
 To start the command prompt on Windows, you open the start menu on the left of your taskbar.
 
-<img src="media/image1.png" style="width:4.50943in;height:2.54354in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image1.png" style="width:4.50943in;height:2.54354in" />
 
 Once opened, you type ‘cmd’. The result is the command prompt which you can then click on to open. Once opened, it looks like this:
 
-<img src="media/image2.png" style="width:6.64995in;height:3.46718in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image2.png" style="width:6.64995in;height:3.46718in" />
 
 # Changing the title and color
 
@@ -69,7 +69,7 @@ By doing this, you get an explanation of the command. Furthermore, you also get 
 
 To change the title of the window to Demo you type in the following: title Demo.
 
-<img src="media/image3.png" style="width:5.60417in;height:2.59375in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image3.png" style="width:5.60417in;height:2.59375in" />
 
 Next, we can change the color of the window and the letters by using the color command. We start again with using /? so we can get more guidance on how to use this command.
 
@@ -79,7 +79,7 @@ To get a bright white background with red letters: color fc
 
 To go back to a black background with white letters: color 07
 
-<img src="media/image4.png" style="width:5.5252in;height:4.58888in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image4.png" style="width:5.5252in;height:4.58888in" />
 
 # Echo
 
@@ -87,7 +87,7 @@ As the people following the Python track are familiar with, the first step is al
 
 To get Hello World, type: echo Hello World
 
-<img src="media/image5.png" style="width:5.625in;height:1.82292in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image5.png" style="width:5.625in;height:1.82292in" />
 
 # Knowing where you are
 
@@ -126,7 +126,7 @@ In the command prompt, you can go into different folders (also called directorie
 </tbody>
 </table>
 
-<img src="media/image6.png" style="width:6.3in;height:7.20139in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image6.png" style="width:6.3in;height:7.20139in" />
 
 Lets see how they all work. For this demo, I have created a directory with several subdirectories in it: demo\_cmd. Lets try some options of the dir command here.
 
@@ -134,17 +134,17 @@ Lets see how they all work. For this demo, I have created a directory with sever
 
 We start by just using the dir command.
 
-<img src="media/image7.png" style="width:4.66667in;height:2.78125in" />
+<img src="image7.png" style="width:4.66667in;height:2.78125in" />
 
 ### dir /B
 
 dir /B gives you the bare format without heading information or summary.
 
-<img src="media/image8.png" style="width:1.875in;height:1.33333in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image8.png" style="width:1.875in;height:1.33333in" />
 
 ### dir /S
 
-<img src="media/image9.png" style="width:5.40625in;height:4.95833in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image9.png" style="width:5.40625in;height:4.95833in" />
 
 Note that this is not the entire result, just a part of it. As you can see, you get an overview of the subdirectories and the files in it, but it also checks those subdirectories and gives you an overview of that.
 
@@ -152,13 +152,13 @@ Note that this is not the entire result, just a part of it. As you can see, you 
 
 dir /Q also gives you the owner. In my case, this is not very interesting because I created everything. But as archivists, we receive collections from others all the time, so this command could be handy.
 
-<img src="media/image10.png" style="width:6.10417in;height:2.84375in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image10.png" style="width:6.10417in;height:2.84375in" />
 
 ## Tree command
 
 You could also want a more visual view of the subdirectories and files. Then you can use the tree command.
 
-<img src="media/image11.png" style="width:3.44792in;height:2.25in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image11.png" style="width:3.44792in;height:2.25in" />
 
 However, this does not show the files. It just shows the directories and subdirectories.
 
@@ -166,25 +166,25 @@ However, this does not show the files. It just shows the directories and subdire
 
 As you can see in the previous screenshot I am currently in my H drive in the subdirectory Demo\_cmd. How did I get here? By using the change directories command: cd \[directory you want to go in\]. Cd stands for changing directories.
 
-<img src="media/image12.png" style="width:1.41667in;height:0.63542in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image12.png" style="width:1.41667in;height:0.63542in" />
 
 I can also go back by using the cd command, but with the addition of two dots: cd..
 
-<img src="media/image13.png" style="width:1.44792in;height:0.96875in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image13.png" style="width:1.44792in;height:0.96875in" />
 
 You can also change drives. I am currently in my H drive, but I also have a C drive. To change drive, you simple type in \[DRIVE\]:. For me, this is: C:
 
-<img src="media/image14.png" style="width:0.60417in;height:0.6875in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image14.png" style="width:0.60417in;height:0.6875in" />
 
 # Renaming a file 
 
 In H:\Demo\_cmd\Test I have a file named B.txt.
 
-<img src="media/image15.png" style="width:4.83333in;height:2.70833in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image15.png" style="width:4.83333in;height:2.70833in" />
 
 I want to change B.txt to A.txt. I need to rename it. I can do this using the ren command.
 
-<img src="media/image16.png" style="width:6.3in;height:1.28056in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image16.png" style="width:6.3in;height:1.28056in" />
 
 I can change the name by typing in the following: ren \[old name file\] \[new name file\]
 
@@ -200,13 +200,13 @@ If I want to create a new directory in my demo\_cmd I can do this using the mkdi
 
 To see if it worked, you can use the dir or tree command again.
 
-<img src="media/image17.png" style="width:3.5in;height:2.39583in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image17.png" style="width:3.5in;height:2.39583in" />
 
 # Copy a file
 
 If I want to copy A.txt (which is in my Test directory) to the new demo\_test directory, I can use the copy command. This leads to the following: copy A.txt H:\Demo\_cmd\demo\_test.
 
-<img src="media/image18.png" style="width:4.73958in;height:3.1875in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image18.png" style="width:4.73958in;height:3.1875in" />
 
 # Deleting a file
 
@@ -214,7 +214,7 @@ To delete a file, you can use the del command. However, it is recommended to als
 
 To delete the file I just copied: del /P A.txt
 
-<img src="media/image19.png" style="width:3.84375in;height:0.83333in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image19.png" style="width:3.84375in;height:0.83333in" />
 
 In the screenshot you can see the prompt, where I need to type in Y or N for it to do it, or stop it.
 
@@ -224,7 +224,7 @@ A batch script is a series of command to be executed by the command-line interpr
 
 To create a batch script, you simply open your notepad and type in the command (one on each line). Then you save it as a .bat file.
 
-<img src="media/image20.png" style="width:3.4375in;height:2.57292in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image20.png" style="width:3.4375in;height:2.57292in" />
 
 After creating this script, I go into the directory where the bat script resides and type in the name of the file: example.bat
 
@@ -234,11 +234,11 @@ This leads to the command prompt doing these command one after the other without
 
 Executing a Python script is almost the same. You simply go to where the file is and type in the name of the file.
 
-<img src="media/image21.png" style="width:3.36458in;height:0.8125in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image21.png" style="width:3.36458in;height:0.8125in" />
 
 You can also execute the file from somewhere else, just do not forget to type in the complete path.
 
-<img src="media/image22.png" style="width:3.19792in;height:0.47917in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image22.png" style="width:3.19792in;height:0.47917in" />
 
 For HTML this all works the same. Just type in the file (example: DuckArchive.HTML). With HTML files, this will start up in your browser which automatically gets booted up for you after entering the command.
 
@@ -268,11 +268,11 @@ Calculate an MD5 checksum: certutil -hashfile \[file name\] MD5
 
 Calculate a SHA512 checksum: certutil -hashfile \[file name\] MD5
 
-<img src="media/image23.png" style="width:4.51042in;height:0.9375in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image23.png" style="width:4.51042in;height:0.9375in" />
 
 You can also calculate a checksum on an entire folder using a batch script:
 
-<img src="media/image24.png" style="width:5.98958in;height:1.72917in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image24.png" style="width:5.98958in;height:1.72917in" />
 
 Here is a breakdown of the script:
 
@@ -296,7 +296,7 @@ Note that the certutil command can do a lot more. To see all the options, type c
 
 If you enter multiple commands, your window can get full and a bit cluttered. To get a clean state, you can use the clean screen command: cls
 
-<img src="media/image25.png" style="width:4.78125in;height:2.14583in" />
+<img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/command_prompt_guide/image25.png" style="width:4.78125in;height:2.14583in" />
 
 # Closing the command prompt
 
