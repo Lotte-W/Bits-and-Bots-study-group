@@ -12,6 +12,8 @@ Below is a list of games that have their own repository or webpage elsewhere
 
 - [Hangmap](https://github.com/PhilipEno/hangmap): Your computer is suffering from severe bitrot. Guess the digital heritage / preservation word before you have to start using 'hangmappen' again for your archival endeavours!
 
+- [Preservation Python](https://github.com/archivistnathan/preservation-python): Preservation Python is a snake-type game where the player controls a continually shrinking python, a metaphor for obsolescence and data loss. Requires the pygame library.
+
   
 ## Front-end Games
 - [Medieval Action](https://evavandenhurk.github.io/MedievalAction/): Who will win? Bowman, swordsman or horseman? A medieval game inspired by the classic 'rock, paper, scissors' game
