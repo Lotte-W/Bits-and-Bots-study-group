@@ -5,7 +5,8 @@
 # Bits-and-Bots-Study-Group
 
 ## Who are we?
-Bits and Bots is a study group teaching digital archivists coding skills! The group is open to all, the goal being to learn together as a community instead of in isolation.
+Bits and Bots is a study group teaching digital archivists coding skills! The group is open to all, the goal being to learn together as a community instead of in isolation. 
+In September 2023, during iPRES2024 in Ghent, Bits and Bots has been awarded the [Digital Preservation Award](https://www.dpconline.org/events/digital-preservation-awards/the-finalists-award-for-teaching-and-communications) in the category teaching and communications! 
 
 ### What makes us different?
 
@@ -28,9 +29,9 @@ The front-end development track is based on skills such as HTML, CSS, and JavaSc
 ## Our resources
 While the group may be learning together the resources are open to everyone as and when we create them!
 
-We have an area for our expert sessions [here](https://github.com/Lotte-W/Bits-and-Bots-study-group/tree/main/monthly_meetings)
+We have an area for our expert sessions [here](https://github.com/Lotte-W/Bits-and-Bots-study-group/tree/main/Expert_sessions)
 
-An area for the python guide [here](https://github.com/Lotte-W/Bits-and-Bots-study-group/tree/main/python_resources)
+An area for the python guide [here](https://github.com/Lotte-W/Bits-and-Bots-study-group/tree/main/Python_recources)
 
 An area for the front-end development track [here](https://github.com/Lotte-W/Bits-and-Bots-study-group/tree/main/front-end_resources)
 
