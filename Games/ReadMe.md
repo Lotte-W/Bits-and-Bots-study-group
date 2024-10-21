@@ -24,6 +24,10 @@ Below is a list of games that have their own repository or webpage elsewhere
   
 - [Stolen Archive](https://evavandenhurk.github.io/StolenArchive/): A digital record has been stolen! Use your knowledge of digital archiving to save the record.
 
+- [Broomy Witch](https://archiveduck.github.io/BroomyWitch/): A flappy bird inspired game, but instead of a bird you are a witch on a broom. Avoid the randomized obstacles and enemies, or shoot the latter down with your wand. Score points with each obstacle you pass without falling of your broom!
+
 ## Twine Games
 - [Who wants to ruin Professor Schmoush's data?](https://github.com/EFortinD/Alchemy/tree/main/Jeux) : This is a very partial game - in French in the enventuality I can reuse it as a training tool. The goal is to find who wants to destroy Professor Shmoush data but it's really not finished yet!
+
+- [Duck Archive](https://archiveduck.github.io/DuckArchiveGame/): You are a duck and you work at the Duck Archive. One day your boss aks you to fetch a file. Will you obey?
 
