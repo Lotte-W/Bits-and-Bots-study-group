@@ -30,4 +30,6 @@ Below is a list of games that have their own repository or webpage elsewhere
 - [Who wants to ruin Professor Schmoush's data?](https://github.com/EFortinD/Alchemy/tree/main/Jeux) : This is a very partial game - in French in the enventuality I can reuse it as a training tool. The goal is to find who wants to destroy Professor Shmoush data but it's really not finished yet!
 
 - [Duck Archive](https://archiveduck.github.io/DuckArchiveGame/): You are a duck and you work at the Duck Archive. One day your boss aks you to fetch a file. Will you obey?
+  
+- [File Format Fling](https://francesca4242.github.io/File_Format_Fling) : A dating simulation game where you find yourself choosing between multiple highly eligible file formats in a bid to find love, and possibly more. Will your lonely soul and your work life balance finally find peace?
 
