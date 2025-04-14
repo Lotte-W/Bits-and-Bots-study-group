@@ -7,6 +7,7 @@
 ## Who are we?
 Bits and Bots is a study group teaching digital archivists coding skills! The group is open to all, the goal being to learn together as a community instead of in isolation. 
 In September 2023, during iPRES2024 in Ghent, Bits and Bots has been awarded the [Digital Preservation Award](https://www.dpconline.org/events/digital-preservation-awards/the-finalists-award-for-teaching-and-communications) in the category teaching and communications! 
+After the succes of the first group, we have started a new cohort in April 2025, with over 150 people from 5 continents joining!
 
 ### What makes us different?
 
