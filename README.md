@@ -19,7 +19,7 @@ There are many exciting [games](https://github.com/Lotte-W/Bits-and-Bots-study-g
 
 ## What do we do?
 
-The group focusses on two different tracks when it comes to learning. Python and front-end development. Alongside this we also have sessions each month which introduce specific topics such as using GitHub or the Command Prompt or demos of data mining.
+The group focusses on two different tracks when it comes to learning: Python and front-end development. Alongside this we also have sessions each month which introduce specific topics such as using GitHub or the Command Prompt or demos of data mining. This means we not only focus on new coding languages, but also on developing digital skills in general. 
 
 ### Python Track
 The python track starts with a focus on installation of the software (considering that limitations on workspace computers and permissions can differ by person), and learning some basic principles. In the other seven modules the focus is on building and expanding this foundation. By creating games such as Guess the Number, Hangman, and Treasure Hunt we work with functions, loops, lists, dictionaries, coordinates, etc. Each module, new concepts are introduced and build further on previous modules. We rely on two important books by Al Sweigart: Automate the Boring Stuff and Invent Your Own Computer Games with Python, both freely available on the internet, which are further supplemented by other resources.
