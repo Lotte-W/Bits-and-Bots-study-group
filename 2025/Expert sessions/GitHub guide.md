@@ -54,3 +54,7 @@ However, for the purposes of this guide, here is a quick table of basic terms th
 |**Markdown**|Markdown is an incredibly simple semantic file format, not too dissimilar from .doc, .rtf and .txt. Markdown makes it easy for even those without a web-publishing background to write prose (including with links, lists, bullets, etc.) and have it displayed like a website.|
 
 ### Getting Started with GitHub
+To create your first GitHub account you will first need to register at www.github.comand follow the instructions provided [here](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github). You will need an email address, password and potentially 2-Factor Authentication.
+
+Once you have created your account in the top right corner you will see a number of buttons. Click on the + sign and then the **New Repository** tab.
+![screenshot New Repository](https://github.com/Lotte-W/Bits-and-Bots-study-group/media/GitHub_guide/New_Repository.png)
