@@ -1,6 +1,15 @@
 # GitHub Guide 
 This GitHub Guide is based on the expert session of the Bits and Bots study group, the 2025 cohort. 
 It will cover the basic concepts, explain what GitHub is, and how to use it. 
+This guide will cover:
+* GitHub: Wat is it, intro to GitHub terminology and how to get started
+* Markdown and how to use it on GitHub
+* Creating an issue and explain what a 'good' issue is
+* Repository structure
+* Making and Merging pull requests
+* Other functionalities, like GitHub pages, and how to turn your GitHub repo into a website
+* Further resources.
+
 
 ## What is Git?
 Git is a version control system that helps you keep track of file changes. It is also possible to track who made the changes. This makes Git perfect for working with others in writing
@@ -132,3 +141,90 @@ Lastly, you can delete an individual file or an entire directory in your reposit
 ![screenshot Delete file](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Delete_file.png)
 
 More on working with files can be found [here](https://docs.github.com/en/repositories/working-with-files)
+
+## Pull requests 
+A pull request is a proposal to merge a set of changes from one branch into another.
+
+### Making a Pull Request
+To make a pull request, you first need to fork your repository. At the top of your
+repository, you can see how many times a repository has been forked.
+![screenshot Fork](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Fork.png)
+
+After clicking on this, you get the following:
+![screenshot Create fork](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Create_Fork.png)
+
+Now that you have forked the repository, you can make changes such as adding to the README, adding files, etc. While doing this, you can see how many changes you have made by seeing how many commits you are ahead of the original repository. In this example, one sentence has been added to the README.
+
+![screenshot Commit](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Commit_ahead.png)
+
+By selecting contribute, it gives you the option to open a pull request. When selecting this, you can add a title to your pull request along with a description. You can also see what you have changed and how that compares to the original repository.
+
+![screenshot compare changes](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Compare_changes.png)
+
+After making sure everything is correct, you can create the pull request. The owner of the repository can look at your request and decide to merge it (accepting your changes).
+
+### Merging a Pull Request
+![screenshot versions](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Versions_in_Git.png)
+
+After a pull request has been made, the owner of a repository can merge a pull request to accept the changes that have been proposed by the maker of the request. Go to the pull request tab to see all the requests.
+
+![screenshot Pull request tab](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Pull_request_tab.png)
+
+Click on a pull request to see the changes that are proposed. There are separate tabs for conversation (comments on what has changed), Commits (where you can see the changes), and Files Changed (where you can see which files are affected and also the main changes).
+
+![screenshot Files changed tab](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Files_changed.png)
+
+Under conversation, if you wish to accept the changes you can press Merge pull request. If you are unsure you can comment, and if you wish to reject the pull request then you can use the Close pull request button.
+
+![screenshot Close request](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Close_pull_request.png)
+
+You will notice that GitHub has checked to make sure that the pull request does not conflict with any other code you have written in the main branch.
+
+## Other Functionalities
+### GitHub Pages
+By adding an index.html file or a markdown file to your repository you can create your own webpage. By enabling GitHub pages within the settings of the repo GitHub will generate a webpage for you that can be shared online. The address of your repository could be, for example: [https://github.com/Francesca4242/SecretSanta](https://github.com/Francesca4242/SecretSanta). Once turned into a webpage, this will become: [http://francesca4242.github.io/SecretSanta](http://francesca4242.github.io/SecretSanta)
+
+### Turning your GitHub Repository into a Website
+Go back to your .html file and change the name of the file (whatever it is called) to
+index.html. Upload this file to your repository by going to the repository page you just
+created, clicking **add files** and then **upload files**.
+
+![screenshot Upload files](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Upload_files2.png)
+
+Upload the index.html file that you just renamed to the repository by dragging and dropping it into the area or navigating to the file in file explorer. Once done at the bottom type the changes you have made (for example ‘added index.html file) and press the green **commit changes** button.
+
+![screenshot Commit changes](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Commit_changes2.png)
+
+You should now be back at the repository main page, go to settings in the bar at the top on the right hand side. And then navigate to Pages in the side bar menu. 
+
+![screenshot Settings pages](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Settings_pages.png)
+
+Second section down, select the source as main and click save.
+Your game should then appear at the website on your pages (it may take a while to compile). GitHub pages creates a website address based on your GitHub username and the name of your repository. For example, this could be: https://[your_GitHub_username].github.io/[name_of_repository]
+
+If you can't find it, then the page address should also be displayed on the screen, as below. 
+![screenshot GitHub pages](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/GitHub_pages.png)
+
+**Do not forget to share the link, so other people can have a look at it!**
+
+### Projects
+GitHub allows the functionality of creating projects to show workflows and collaborate. A project is an adaptable collection of items that you can view as a table, a kanban board, or a roadmap and that stays up-to-date with GitHub data. Your projects can track issues, pull requests, and ideas that you note down.
+
+You can create and customise multiple views by filtering, sorting, and grouping issues and pull requests, visualise work with configurable charts, and add custom fields to track metadata specific to your team. Rather than enforcing a specific methodology, a project provides flexible features you can customise to your needs and processes.
+
+You can find more information on starting a project [here](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project).
+
+![screenshot GitHub projects](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/GitHub_projects.png)
+
+## Further Resources 
+
+|Skill|Link|Comment|
+|:----|:---|:------|
+|Git|[https://www.w3schools.com/git/default.asp](https://www.w3schools.com/git/default.asp)|This is an online course by W3Schools on Git|
+|GitHub|[https://github.com/skills/introduction-to-github](https://github.com/skills/introduction-to-github)|Tutorial on GitHub skills page|
+|GitHub README files|[https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)|Explanation on GitHub README files: What are they and how to use them.|
+|GitHub issues|[https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/quickstart](https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/quickstart)|Quickstart for GitHub issues. Interactive guide to learn about GitHub issues.
+|Markdown|[https://www.markdowntutorial.com/](https://www.markdowntutorial.com/)|Interactive tutorial about Markdown|
+|Markdown|[https://www.youtube.com/watch?v=OXZ77HvL_Yg](https://www.youtube.com/watch?v=OXZ77HvL_Yg)|Video tutorial about Markdown|
+|Markdown|[https://blog.webdevsimplified.com/2023-06/markdown-crash-course/](https://blog.webdevsimplified.com/2023-06/markdown-crash-course/)|Markdown crash course|
+|Markdown|[https://dillinger.io/](https://dillinger.io/)| Online Markdown editor, to see how it works and to try it out!|
