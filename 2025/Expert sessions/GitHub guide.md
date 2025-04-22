@@ -119,6 +119,7 @@ If you want to place your newly created file in a new folder, you can use the fi
 ![screenshot add folder and file](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Add_folder_and_file.png)
 
 A new window will appear for the changes (see screenshot below). Type a brief message that describes the change you made to the file. Below the commit message field, you can choose to add your commit to the current branch or to a new branch. If you create a new one, you can start a pull request.
+
 ![screenshot Commit changes](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Commit_changes.png)
 
 It is also possible to upload an existing file. To upload a file, navigate to the main page of the repository and browse to the folder where you want to upload the file. On the top right, you can select an ‘Add file’ dropdown menu, and then click ‘Upload files’. You can choose your files or drag and drop them to add them to the repository. After you’ve done so, you can add a commit message as well, to describe what you have done and choose where you want to commit your changes, just like when you would create a new file. 
