@@ -106,3 +106,28 @@ the issue is exactly about.
 This other [example of a good issue](https://github.com/digital-preservation/droid/issues/1087), shows that the issue isnmore clear now.
 
 ## Repository Structure 
+In this section, we explain a bit more on the structure of your repository and how to add, rename and delete files and folders.
+
+You can create new files directly on GitHub in any repository you have writing access to. If you don’t have access to it, you can fork the project to your personal account and send a pull request to the original repository after you commit your change. This is not only the case for adding files, but for all the changes you want to make to a repository you don’t have access to.
+
+To add a file on GitHub of a repository you have writing rights to, navigate to the main page of the repository and browse to the folder where you want to create a file. On the top right, you can select an ‘Add file’ dropdown menu, and then click ‘Create new file’.
+![screenshot add file](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Add_file.png)
+
+Type the name and extension for the file in the name field. Content for the file can be typed in the contents text box. If you want to review your content first, click the ‘Preview’ tab on the top left, next to the ‘Edit’ tab. If you’re finished, click on ‘Commit changes…’ (green button on the top right).
+
+If you want to place your newly created file in a new folder, you can use the filename field. Type the name for the folder and end with a / and type the name of the file after the slash in the newly appeared filename field. In the screenshot above you see the name of the directory (Bits-and-Bots-study-group) and the name of the folder (Games) before the filename field. Note how every part is divided by forward slashes.
+![screenshot add folder and file](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Add_folder_and_file.png)
+
+A new window will appear for the changes (see screenshot below). Type a brief message that describes the change you made to the file. Below the commit message field, you can choose to add your commit to the current branch or to a new branch. If you create a new one, you can start a pull request.
+![screenshot Commit changes](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Commit_changes.png)
+
+It is also possible to upload an existing file. To upload a file, navigate to the main page of the repository and browse to the folder where you want to upload the file. On the top right, you can select an ‘Add file’ dropdown menu, and then click ‘Upload files’. You can choose your files or drag and drop them to add them to the repository. After you’ve done so, you can add a commit message as well, to describe what you have done and choose where you want to commit your changes, just like when you would create a new file. 
+![screenshot Upload files](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Upload_files.png)
+
+You can rename any file in your repository directly in GitHub. Simply browse to the file you want to rename, and click on the pencil on the right to edit the file. You can change the name of the file in the filename field, and also update the contents of your file if you want. Click on ‘Commit changes…’ and describe what you’ve done and where you want to commit the changes.
+![screenshot Rename file](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Rename_file.png)
+
+Lastly, you can delete an individual file or an entire directory in your repository on GitHub. Browse to the file or the directory you want to delete and select the dropdown menu in the top right corner (with the three dots) and choose ‘Delete file’ or ‘Delete directory’.
+![screenshot Delete file](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Delete_file.png)
+
+More on working with files can be found [here](https://docs.github.com/en/repositories/working-with-files)
