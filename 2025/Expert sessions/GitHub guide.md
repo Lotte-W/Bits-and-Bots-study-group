@@ -57,4 +57,52 @@ However, for the purposes of this guide, here is a quick table of basic terms th
 To create your first GitHub account you will first need to register at www.github.comand follow the instructions provided [here](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github). You will need an email address, password and potentially 2-Factor Authentication.
 
 Once you have created your account in the top right corner you will see a number of buttons. Click on the + sign and then the **New Repository** tab.
-![screenshot New Repository](https://github.com/Lotte-W/Bits-and-Bots-study-group/media/GitHub_guide/New_Repository.png)
+
+![screenshot New Repository](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/New_Repository.png)
+
+
+A screen will then appear with different options to set up your repository, you will need to keep the repository public to turn it into a website. The main parts to fill out are the name of the repository and a brief description of it. You can add a license if you wish to.
+![screenshot Create a New Repository](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Create_a_New_Repository.png)
+
+Tick the box to set up the README, this will tell everyone what your website is about when they come to your page. After clicking create repository then you can create your README. A README for a GitHub repository looks a bit like this below:
+![screenshot READme](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/READme.png)
+
+For a basic README you can just type some text in the box to tell everyone what the project is about. However, a README uses a type of programming language called markdown. It is possible to use styling options and add pictures to your README using the Markdown language.
+
+## Markdown
+Markdown is a lightweight markup language with a plain text formatting syntax. It is a tool used to convert text to HTML for easy content management. You can use it to write README pages about your repositories in GitHub as well as format GitHub pages. It is
+simpler and quicker to write than HTML, if you aren't looking to do anything too complicated. To style words in Markdown, you simply need to surround those words with some special characters. You can use those around one or multiple words. Below are some examples:
+
+![screenshot table markdown](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Markdown_examples.png)
+
+In HTML, there are six headings that you can define with the <h> tag. In Markdown, you simply use a hash mark (#). For heading 1 you use one #, for heading 2 two ## et cetera,
+until you are at heading 6: ######
+You can also create a heading in bold or italics. 
+
+### Using Markdown on GitHub
+With Markdown you can create README files in your GitHub repository. These files can be used to tell other people why your project is useful, what others can do with your project, and how they can use it. The README file is often the first item a visitor will see when visiting your repository.
+
+You can define relative links and image paths in your rendered files to help readers navigate to other files in your repository.
+
+GitHub will automatically transform your relative link or image path based on whatever branch you're currently on, so that the link or path always works. The path of the link will be relative to the current file. Links starting with / will be relative to the repository root. You can use all relative link operands, such as ./ and ../. Relative links are easier for users who clone your repository. Absolute links may not work in clones of your repository - we recommend using relative links to refer to other files within your repository.
+
+## Creating an Issue 
+To raise an issue simply go to a repository, for example the Bits-and-Bots-study-group, and click on the issues tab.
+![screenshot issue tab](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Issue_tab.png)
+
+You’ll then see a list of all the existing issues, check that nothing similar exists that you can’t already comment on or add to. If that is the case then you can click the Submit New Issue button.
+
+![screenshot new issue](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/GitHub_guide/Submit_new_issue.png)
+
+## What makes a good issue?
+Issues should be:
+* Very clear, give enough information so that other people can understand the issue as well.
+* Try and add detail. The more detail, the better.
+* If possible, also try to provide the solution as well as the problem.
+
+This [example of a bad issue](https://github.com/digital-preservation/droid/issues/887) gives insight why we consider this to be a ‘bad’ issue. Someone commented on it that more context should be added, because it is unclear what
+the issue is exactly about. 
+
+This other [example of a good issue](https://github.com/digital-preservation/droid/issues/1087), shows that the issue isnmore clear now.
+
+## Repository Structure 
