@@ -2,7 +2,7 @@
 This GitHub Guide is based on the expert session of the Bits and Bots study group, the 2025 cohort. 
 It will cover the basic concepts, explain what GitHub is, and how to use it. 
 This guide will cover:
-* GitHub: Wat is it, intro to GitHub terminology and how to get started
+* GitHub: What is it, intro to GitHub terminology and how to get started
 * Markdown and how to use it on GitHub
 * Creating an issue and explain what a 'good' issue is
 * Repository structure
