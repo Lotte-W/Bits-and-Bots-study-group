@@ -30,7 +30,7 @@ The front-end development track is based on skills such as HTML, CSS, and JavaSc
 ## Our resources
 While the group may be learning together the resources are open to everyone as and when we create them!
 
-We have an area for our 2024 material [here](https://github.com/Lotte-W/Bits-and-Bots-study-group/tree/fcf51bd7534ee166cdd3cafa78f4b6210eb863b0/2024), including the expert sessions [here](https://github.com/Lotte-W/Bits-and-Bots-study-group/tree/fcf51bd7534ee166cdd3cafa78f4b6210eb863b0/2024/Expert_sessions), the [Python guide](https://github.com/Lotte-W/Bits-and-Bots-study-group/tree/main/Python_recources) and the guide for our [Front-end development track](https://github.com/Lotte-W/Bits-and-Bots-study-group/tree/fcf51bd7534ee166cdd3cafa78f4b6210eb863b0/2024/front-end_resources)
+We have an area for our 2024 material [here](https://github.com/Lotte-W/Bits-and-Bots-study-group/tree/fcf51bd7534ee166cdd3cafa78f4b6210eb863b0/2024), including the [expert sessions](https://github.com/Lotte-W/Bits-and-Bots-study-group/tree/fcf51bd7534ee166cdd3cafa78f4b6210eb863b0/2024/Expert_sessions), the [Python guide](https://github.com/Lotte-W/Bits-and-Bots-study-group/tree/fcf51bd7534ee166cdd3cafa78f4b6210eb863b0/2024/Python_recources) and the guide for our [Front-end development track](https://github.com/Lotte-W/Bits-and-Bots-study-group/tree/fcf51bd7534ee166cdd3cafa78f4b6210eb863b0/2024/front-end_resources).
 
 Based on the feedback of the first group, we have altered the resources and structure a bit. The resources for the 2025 cohort, will be added gruadually over the year.
 
