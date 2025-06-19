@@ -184,10 +184,99 @@ I do not need to specify the file path here because it is all happening where I 
 
 However, here it is with the file paths included: ren H:\Demo_cmd\Test\B.txt H:\Demo_cmd\Test\A.txt
 
-  ### Creating folders and files
+  ### Making a new directory
+  If I want to create a new directory in my demo_cmd I can do this using the mkdir command. To create a new directory I type: mkdir demo_test
 
-  ### Resources
+  To see if it worked, you can use the dir or tree command again.
+  
+  ![Tree view](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/tree_command.png)
 
+  ### Copy a file
+  If I want to copy A.txt (which is in my Test directory) to the new demo_test directory, I  can use the copy command. This leads to the following: copy A.txt  H:\Demo_cmd\demo_test.
+
+   ![Copy file](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/copy_file.png)
+   
+  ### Deleting a file
+To delete a file, you can use the del command. However, it is recommended to also add  /P to your command. /P gives you a prompt for confirmation before deleting each file.  This is useful so you have an extra check built in.
+
+To delete the file I just copied: del /P A.txt
+
+![Delete file](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/delete_file.png)
+
+
+In the screenshot you can see the prompt, where I need to type in Y or N for it to do it, or stop it.
+
+  ### Executing a batch script
+A batch script is a series of command to be executed by the command-line interpreter,  stored in a plain text file. This is useful if you have a workflow for example. If I want to  change the title, change the color, copy a file, and delete a file all in one go without typing these in all the time.
+
+To create a batch script, you simply open your notepad and type in the command (one on  each line). Then you save it as a .bat file.
+
+![Create Batch Script](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/create_batch_script.png)
+
+After creating this script, I go into the directory where the bat script resides and type in  the name of the file: example.bat
+
+This leads to the command prompt doing these command one after the other without  me having to type them in individually.
+
+  ### Executing a Python or HTML script
+  Executing a Python script is almost the same. You simply go to where the file is and type in the name of the file.
+
+![Execute file 1](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/Execute_.pyfile.png)
+
+You can also execute the file from somewhere else, just do not forget to type in the complete path.
+
+![Execute file 2](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/Execute_.pyfile_2.png)
+
+For HTML this all works the same. Just type in the file (example: DuckArchive.HTML). With HTML files, this will start up in your browser which automatically gets booted up  for you after entering the command.
+  
+  ### Stopping a task
+  When starting the Jokes.py program or when executing the tree command on your complete H drive (may take it a while), you might want to stop the task. You can of course  close the window, but this is of course not the proper way. The proper way is to use ctrl  + C.
+ 
+  ### Start Wordpad
+To start up Wordpad using your command prompt, you simple type write
+
+### Start Word
+For Word, I had to go into my C drive since that is where the program is. To change Drives, just type in the Drive you want to go to and it works. For example, I want to go  from the H: Drive to the C: Drive:
+
+![Change drive](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/change_drive.png)
+
+I need to access the file Winword.exe. However, just typing this in like we did with  Python and HTML files will not suffice. You also need to write start.
+
+To start windows: start winword.exe
+  
+  ### Calculating a checksum
+  Checksums are values that are generated from transmitted data before and after transmission. They are a sort of fingerprint for your file. If the checksum stays the same,  you know the file is the same. If anything has changed, the checksum too will have  changed. This can indicate bit rot or an error that happened during migration.
+
+The command to calculate a checksum is certutil -hashfile
+
+Calculate an MD5 checksum: certutil -hashfile [file name] MD5
+
+Calculate a SHA512 checksum: certutil -hashfile [file name] MD5
+
+![Calculate checksum](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/calculate_checksum.png)
+
+You can also calculate a checksum on an entire folder using a batch script:
+
+![Calculate checksum Batch Script](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/calculate_checksum_batch_script.png)
+
+Here is a breakdown of the script:
+* **@echo off**: This line turns off the command echoing in the batch script, meaning that  commands themselves won’t be printed to the console when they are executed.
+* **for %%f in (H:\Demo_cmd\literature\*) do (…)**: This line sets up a loop that iterates over each file (%%f) in the directory  specified (H:\Demo_cmd\literature\). The * is a wildcard character that matches  any file in that directory.
+* **certutil -hashfile "%%f" SHA256**: Within the loop, this command calculates the SHA256 hash value for each file  (%%f) found in the directory specified. certutil is a command-line utility that  performs various cryptographic operations, including hashing files. -hashfile is  an option that tells certutil to hash a specified file. "%%f" is the file being hashed, and SHA256 specifies that the hash algorithm used should be SHA256.
+
+In short, this script goes through each file in the specified directory and calculates its  SHA256 hash value using the certutil command.
+
+Note that the certutil command can do a lot more. To see all the options, type certutil /?
+
+  ### Cleaning the Window
+If you enter multiple commands, your window can get full and a bit cluttered. To get a clean state, you can use the clean screen command: cls
+
+![Clear screen](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/cleaning_the_window.png)
+
+  ### Closing the command prompt
+  To close the command prompt, you can close the window by clicking the x on the top  right. But the more correct way is to use the exit command. Simply type exit, press  ENTER, and the window will close.
+
+  ### Rescources 
+[The Complete List of Command Prompt Commands](https://www.lifewire.com/list-of-command-prompt-commands-4092302) 
 
 ## Mac <a name="Mac"></a>
 
