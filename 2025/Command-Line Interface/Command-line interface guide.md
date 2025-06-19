@@ -21,6 +21,44 @@ To start the Command Prompt on Windows, you open the start menu on the left of y
 Once opened, you type 'cmd'. The result is the command prompt which you can then click on to open. Once opened, it looks like this: 
 ![cmd opened](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/cmd_opened.png)
 
+If you want to know which commands there are and what they do, use the following commands:
+|Command | Explanation |
+|:----|:----------|
+|help||
+|[command] /?|| 
+
+### Knowing where you are
+|Command | Explanation |
+|:---|:-----------|
+|cd|Using cd and then added the directory name moves you into that directory. So if I am in C: and there is a subdirectory called Documents where you want to go to, just type cd Documents and you will move into that subdirectory.|
+|cd..|When you want to go up into a parent directory, you use cd.. . Example: If you are in C:/Documents and you want to go back to just C:.| 
+|C:|If you want to change to another drive, just type C:, H:, or whichever works for you.|
+|dir|List files and folders in the current directory.|
+|tree|Display a folder structure graphically as a tree.|
+|start .|Open the current directory in File Explorer.|
+
+### Creating folders and files
+|Command | Explanation |
+|:---|:-----------|
+|mkdir newfolder|Creates a new directory called newfolder.|
+|copy nul newfile.text|Creates a new empty text file called newfile.| 
+|copy file.txt D:\Backup\|Copies the file called file.txt to another location.|
+|move file.txt D:\Archives\|Moves the file called file.txt to a new folder.|
+|del file.txt|Delete a file. Warning: this is a permananet delete, this will not even appear in your bin after deletion. To control deletion and add a prompt, use del /p.|
+|rmdir /s oldfolder|Deletes the oldfolder and its contents.|
+|echo Archived on %date% > note.txt|Write the current date to a text file.|
+
+### Other useful commands to know
+|Command | Explanation |
+|:---|:-----------|
+|find /c /v "" file.txt|Count the number of lines in a file.|
+|findstr /S /I "keyword" *.txt|Search for a keyword in all .txt files.| 
+|fc file1.txt file2.txt|Compare two text files line by line.|
+|attrib +R file.txt|Make a file read-only.|
+|xcopy source\ destination\ /E /I /H|Copy folders with all files and subfolders.|
+|robocopy C:\Source D:\Backup /MIR|Mirror folders with robust options.|
+|compact /s|Check or compress files using NTFS compression.|
+
   ### Changing the title and color
 To start, you can try and change the title of the window to give it a more meaningful name. You do this using the title command. To know what a command does, you can type in: title /?. Do not forget to press ENTER after each command.
 
@@ -37,14 +75,6 @@ To get a bright white background with red letters: color fc
 
 To go back to a black background with white letters: color 07
 ![Colours](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/color_attributes.png)
-
-  ### Knowing where you are
-
-|Command | Explanation |
-|:---|:-----------|
-|cd|Using cd and then added the directory name moves you into that directory. So if I am in C: and there is a subdirectory called Documents where you want to go to, just type cd Documents and you will move into that subdirectory.|
-|cd..|When you want to go up into a parent directory, you use cd.. . Example: If you are in C:/Documents and you want to go back to just C:.| 
-|C:|If you want to change to another drive, just type C:, H:, or whichever works for you.|
 
 
   #### Dir command
