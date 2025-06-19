@@ -1,0 +1,239 @@
+# Working With The Command-Line Interface 
+
+This guide on the Command-line interface is based on the Demo of the Command Prompt in Windows, during the third Bits and Bots expert meeting. 
+However, commands for other Operating Systems have been included. Feel free to add to this guide if useful information is missing.
+
+## Table of Contents
+1. [Windows](#Windows)
+2. [Mac](#Mac)
+3. [Linux](#Linux)
+4. [Batch Scripts](#Batch)
+<br/>
+
+## Windows <a name="Windows"></a>
+The command-line interface for Windows is the command prompt. With the command prompt you can execute commands to do different tasks. 
+
+  ### How to start the Command Prompt? 
+To start the Command Prompt on Windows, you open the start menu on the left of you taskbar. 
+
+![open cmd](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/open_cmd.png)
+
+Once opened, you type 'cmd'. The result is the command prompt which you can then click on to open. Once opened, it looks like this: 
+![cmd opened](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/cmd_opened.png)
+
+  ### Changing the title and color
+To start, you can try and change the title of the window to give it a more meaningful name. You do this using the title command. To know what a command does, you can type in: title /?. Do not forget to press ENTER after each command.
+
+By doing this, you get an explanation of the command. Furthermore, you also get an example of how to use it. In the case of title, you get: TITLE [string]. The string specifies the title for the command prompt window.
+
+To change the title of the window to Demo you type in the following: title Demo.
+![Title demo](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/demo.png)
+
+Next, we can change the color of the window and the letters by using the color command. We start again with using /? so we can get more guidance on how to use this command.
+
+The color command sets the default console foreground and background colors. The use of it is: COLOR [attr]. [attr] is what specifies the color attribute of console output. These attributes are specified by two hex digits: the first corresponds to the background, the second to the foreground. Then a list is given with options.
+
+To get a bright white background with red letters: color fc
+
+To go back to a black background with white letters: color 07
+![Colours](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/color_attributes.png)
+
+  ### Knowing where you are
+
+|Command | Explanation |
+|:---|:-----------|
+|cd|Using cd and then added the directory name moves you into that directory. So if I am in C: and there is a subdirectory called Documents where you want to go to, just type cd Documents and you will move into that subdirectory.|
+|cd..|When you want to go up into a parent directory, you use cd.. . Example: If you are in C:/Documents and you want to go back to just C:.| 
+|C:|If you want to change to another drive, just type C:, H:, or whichever works for you.|
+
+
+  #### Dir command
+In the command prompt, you can go into different folders (also called directories) and navigate your way around. As you can see in the previous screenshots, I am currently in my H drive (H:\). I want to go into a directory, but I am not sure which directories there are in my H drive. To find out, I use the dir command. This command can be used to display a list of files and subdirectories. When you type in dir /? you get an overview of all the different options available to use with this command. Every option can be useful for a different purpose, so do not forget to check out this command to see which option would work best for your purposes. Here are some useful examples:
+
+|Command | Explanation |
+|:---|:-----------|
+|dir|Displays the list of files and subdirectories in a directory.|
+|dir /B|Uses bare format (no heading information or summary).| 
+|dir /S|Displays files in specified directory and all subdirectories.|
+|dir /Q|Display the owner of the file.|
+
+![Dir](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/dir_explained.png)
+
+Lets see how they all work. For this demo, I have created a directory with several subdirectories in it: demo_cmd. Lets try some options of the dir command here. 
+
+   #### dir
+We start by just using the dir command
+
+![Dir overview](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/dir.png)
+
+  ##### dir /B
+The command **dir /B** gives you the bare format, without heading information or summary. 
+
+![Dir bare format](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/dir_bare_format.png)
+
+   ##### dir /S
+![Dir subdirectories](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/dir_subdirectories.png)
+
+Note that this is not the entire result, just a part of it. As you can see, you get an overview of the subdirectories and the files in it, but it also checks those subdirectories and gives you an overview of that.
+
+   ##### dir /Q
+dir /Q also gives you the owner. In my case, this is not very interesting because I created everything. But as archivists, we receive collections from others all the time, so this command could be handy.
+![Dir show owner](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/dir_show_owner.png)
+
+  #### Tree command
+You could also want a more visual view of the subdirectories and files. 
+In this case, you can use the tree command 
+
+![Tree command](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/tree_command.png)
+
+  ### Change directories
+As you can see in the previous screenshot I am currently in my H drive in the subdirectory Demo_cmd. How did I get here? By using the change directories command: cd [directory you want to go in]. Cd stands for changing directories.
+
+![cd](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/change_directories.png)
+
+I can also go back by using the cd command, but with the addition of two dots: cd..
+
+![cd go back](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/cd_go_back.png)
+
+You can also change drives. I am currently in my H drive, but I also have a C drive. To change drive, you simple type in [DRIVE]:. For me, this is: C:
+
+![cd change drive](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/change_drive.png)
+
+  ### Echo <br/>
+You can use the echo command in different ways:
+* Show basic output
+* Using variables
+* Blank lines
+* Creating a simple text file
+
+**Show basic output** <br/>
+As the people following the Python track are familiar with, the first step is always to print the message “Hello World”. Instead of using the print function, we need to use the echo command in the command prompt. Especially in a [batch script](#Batch) it can be useful to add this, to provide feedback or display information during the running of that script.
+
+To get Hello World, type: echo Hello World
+
+![Echo](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/echo.png)
+
+**Using variables** <br/>
+You can also create a temporary enviroment variable. 
+```
+set MYNAME=Lotte
+echo Hello, %MYNAME%
+```
+This will give you the result: Hello, Lotte. Using echo this way can help you in scripts you write and automation. 
+
+**Blank lines** <br/>
+When you are typing *echo.* you are printing a blank line. This is not the most useful when you are just using it on your one. But you can also add this in a [batch script](#Batch) to improve readability of the output.
+
+**Creating a simple text file** <br/>
+You can also use the echo command to send output to a file. You can then use *type* to see what is in that file:
+```
+echo This is a test > test.txt
+
+type test.txt
+```
+
+If you want to add to a file, you have to do it in another way. If you try to first method, you will overwrite your file. To append the test file:
+```
+echo Adding another line >> test.txt
+```
+
+  ### Renaming a file
+In H:\Demo_cmd\Test I have a file named B.txt. 
+
+![B.txt](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/Example_file.png)
+
+I want to change B.txt to A.txt. I need to rename it. I can do this using the ren command.
+
+![A.txt](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/Rename_example_file.png)
+
+
+I can change the name by typing in the following: ren [old name file] [new name file] 
+In this case: ren B.txt A.txt 
+
+I do not need to specify the file path here because it is all happening where I currently am: H:\Demo_cmd\Test 
+
+However, here it is with the file paths included: ren H:\Demo_cmd\Test\B.txt H:\Demo_cmd\Test\A.txt
+
+  ### Creating folders and files
+
+  ### Resources
+
+
+## Mac <a name="Mac"></a>
+
+  ### How to start the Terminal? 
+
+  ### Knowing where you are
+  |Command | Explanation |
+|:---|:-----------|
+|pwd|Print Working Directory — shows where you are.|
+|ls|List files and directories in the current folder.| 
+|ls -l|Long listing format with details like size and date.|
+|ls -a|Include hidden files (those starting with .).|
+|cd foldername|Change directory to a folder.|
+|cd..|Go up one level in the directory tree.|
+|open .|Open the current directory in Finder.|
+
+  ### Creating folders and files
+  |Command | Explanation |
+|:---|:-----------|
+|mkdir newfolder|Make a new directory called newfolder.|
+|touch newfile.text|Create a new, empty file.| 
+|cp file.txt ../backup/|Copy file to another location.|
+|mv file.txt ../archives/|Move (or rename) a file.|
+|rm file.txt|	Delete a file (Warning: this is irreversible!).|
+|rm -r oldfolder/|Delete a folder and all its contents.|
+|echo "Archived on $(date)" > log.txt|Write the current date to a text file.|
+
+  ### Other useful commands to know
+  |Command | Explanation |
+|:---|:-----------|
+|find . -type f -name "*.tif"|Find all .tif files in current and subfolders.|
+|grep -Ri "keyword" .|	Search for a keyword in all text files.| 
+|diff file1.txt file2.txt|Compare two text files.|
+|chmod 444 file.txt|Make file read-only for all users.|
+|du -sh *|	Show size of folders/files in current directory.|
+|rsync -avh source/ destination/|Copy files/directories with metadata preserved.|
+|zip -r archive.zip folder/|Compress a folder into a .zip archive.|
+
+  ### Resources
+
+## Linux <a name="Linux"></a>
+The command-line interface for Linux is the Terminal. With the terminal you can execute commands to do different tasks. 
+
+  ### How to start the Terminal? 
+In the search bar in your OS, you can type either "terminal", "command", "prompt", or "shell". 
+
+![open terminal](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/open_terminal.png)
+
+Once opened, it looks like this: <br/>
+![terminal_openl](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/terminal_open.png)
+
+  ### Knowing where you are
+
+|Command | Explanation |
+|:---|:-----------|
+|cd|Using cd and then added the directory name moves you into that directory. So if I am in C: and there is a subdirectory called Documents where you want to go to, just type cd Documents and you will move into that subdirectory.|
+|cd..|When you want to go up into a parent directory, you use cd.. . Example: If you are in C:/Documents and you want to go back to just C:.| 
+|C:|If you want to change to another drive, just type C:, H:, or whichever works for you.|
+
+### Creating folders and files
+
+  ### Resources
+* [The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+
+  
+## Batch scripts <a name="Batch"></a>
+A batch script is a text file that contains a series of commands to be executed in sequence. You can make one by simply opening your notepad, typing some commands, and saving the file as a .bat file. Make sure each command is on its own line.
+
+Here are some useful commands to use in your batch script:
+|Command | Explanation |
+|:---|:-----------|
+|ECHO OFF|This command cleans up your output by hiding the commands executed from being shown.|
+|PAUSE|If you are running a batch script straight from the file explorer instead of your command-line interface, you can add PAUSE to your batch filem to make sure the command-line interface does not shut off after executing the commands. This way you can see the output.| 
+|ECHO.|This adds a blank line. When executing multiple commands the output can look very cluttered. To clean it up a bit you can add a blank line for readability.|
+
+  ### Resources
+  * [Batch Script Tutorial](https://www.tutorialspoint.com/batch_script/index.htm)
+  * [Basics of Batch Scripting](https://www.geeksforgeeks.org/linux-unix/basics-of-batch-scripting/)
+  * [How to Write a Batch Script on Windows](https://www.howtogeek.com/263177/how-to-write-a-batch-script-on-windows/)
