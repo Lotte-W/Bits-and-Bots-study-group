@@ -16,10 +16,10 @@ The command-line interface for Windows is the command prompt. With the command p
   ### How to start the Command Prompt? 
 To start the Command Prompt on Windows, you open the start menu on the left of you taskbar. 
 
-![open cmd](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/open_cmd.png)
+![open cmd](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/open_cmd.png)
 
 Once opened, you type 'cmd'. The result is the command prompt which you can then click on to open. Once opened, it looks like this: 
-![cmd opened](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/cmd_opened.png)
+![cmd opened](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/cmd_opened.png)
 
 If you want to know which commands there are and what they do, use the following commands:
 |Command | Explanation |
@@ -65,7 +65,7 @@ To start, you can try and change the title of the window to give it a more meani
 By doing this, you get an explanation of the command. Furthermore, you also get an example of how to use it. In the case of title, you get: TITLE [string]. The string specifies the title for the command prompt window.
 
 To change the title of the window to Demo you type in the following: title Demo.
-![Title demo](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/demo.png)
+![Title demo](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/demo.png)
 
 Next, we can change the color of the window and the letters by using the color command. We start again with using /? so we can get more guidance on how to use this command.
 
@@ -74,7 +74,7 @@ The color command sets the default console foreground and background colors. The
 To get a bright white background with red letters: color fc
 
 To go back to a black background with white letters: color 07
-![Colours](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/color_attributes.png)
+![Colours](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/color_attributes.png)
 
 
   #### Dir command
@@ -87,47 +87,47 @@ In the command prompt, you can go into different folders (also called directorie
 |dir /S|Displays files in specified directory and all subdirectories.|
 |dir /Q|Display the owner of the file.|
 
-![Dir](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/dir_explained.png)
+![Dir](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/dir_explained.png)
 
 Lets see how they all work. For this demo, I have created a directory with several subdirectories in it: demo_cmd. Lets try some options of the dir command here. 
 
    #### dir
 We start by just using the dir command
 
-![Dir overview](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/dir.png)
+![Dir overview](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/dir.png)
 
   ##### dir /B
 The command **dir /B** gives you the bare format, without heading information or summary. 
 
-![Dir bare format](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/dir_bare_format.png)
+![Dir bare format](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/dir_bare_format.png)
 
    ##### dir /S
-![Dir subdirectories](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/dir_subdirectories.png)
+![Dir subdirectories](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/dir_subdirectories.png)
 
 Note that this is not the entire result, just a part of it. As you can see, you get an overview of the subdirectories and the files in it, but it also checks those subdirectories and gives you an overview of that.
 
    ##### dir /Q
 dir /Q also gives you the owner. In my case, this is not very interesting because I created everything. But as archivists, we receive collections from others all the time, so this command could be handy.
-![Dir show owner](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/dir_show_owner.png)
+![Dir show owner](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/dir_show_owner.png)
 
   #### Tree command
 You could also want a more visual view of the subdirectories and files. 
 In this case, you can use the tree command 
 
-![Tree command](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/tree_command.png)
+![Tree command](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/tree_command.png)
 
   ### Change directories
 As you can see in the previous screenshot I am currently in my H drive in the subdirectory Demo_cmd. How did I get here? By using the change directories command: cd [directory you want to go in]. Cd stands for changing directories.
 
-![cd](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/change_directories.png)
+![cd](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/change_directories.png)
 
 I can also go back by using the cd command, but with the addition of two dots: cd..
 
-![cd go back](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/cd_go_back.png)
+![cd go back](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/cd_go_back.png)
 
 You can also change drives. I am currently in my H drive, but I also have a C drive. To change drive, you simple type in [DRIVE]:. For me, this is: C:
 
-![cd change drive](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/change_drive.png)
+![cd change drive](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/change_drive.png)
 
   ### Echo <br/>
 You can use the echo command in different ways:
@@ -141,7 +141,7 @@ As the people following the Python track are familiar with, the first step is al
 
 To get Hello World, type: echo Hello World
 
-![Echo](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/echo.png)
+![Echo](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/echo.png)
 
 **Using variables** <br/>
 You can also create a temporary enviroment variable. 
@@ -189,19 +189,19 @@ However, here it is with the file paths included: ren H:\Demo_cmd\Test\B.txt H:\
 
   To see if it worked, you can use the dir or tree command again.
   
-  ![Tree view](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/tree_command.png)
+  ![Tree view](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/tree_command.png)
 
   ### Copy a file
   If I want to copy A.txt (which is in my Test directory) to the new demo_test directory, I  can use the copy command. This leads to the following: copy A.txt  H:\Demo_cmd\demo_test.
 
-   ![Copy file](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/copy_file.png)
+   ![Copy file](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/copy_file.png)
    
   ### Deleting a file
 To delete a file, you can use the del command. However, it is recommended to also add  /P to your command. /P gives you a prompt for confirmation before deleting each file.  This is useful so you have an extra check built in.
 
 To delete the file I just copied: del /P A.txt
 
-![Delete file](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/delete_file.png)
+![Delete file](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/delete_file.png)
 
 
 In the screenshot you can see the prompt, where I need to type in Y or N for it to do it, or stop it.
@@ -211,7 +211,7 @@ A batch script is a series of command to be executed by the command-line interpr
 
 To create a batch script, you simply open your notepad and type in the command (one on  each line). Then you save it as a .bat file.
 
-![Create Batch Script](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/create_batch_script.png)
+![Create Batch Script](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/create_batch_script.png)
 
 After creating this script, I go into the directory where the bat script resides and type in  the name of the file: example.bat
 
@@ -220,11 +220,11 @@ This leads to the command prompt doing these command one after the other without
   ### Executing a Python or HTML script
   Executing a Python script is almost the same. You simply go to where the file is and type in the name of the file.
 
-![Execute file 1](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/Execute_.pyfile.png)
+![Execute file 1](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/Execute_.pyfile.png)
 
 You can also execute the file from somewhere else, just do not forget to type in the complete path.
 
-![Execute file 2](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/Execute_.pyfile_2.png)
+![Execute file 2](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/Execute_.pyfile_2.png)
 
 For HTML this all works the same. Just type in the file (example: DuckArchive.HTML). With HTML files, this will start up in your browser which automatically gets booted up  for you after entering the command.
   
@@ -237,7 +237,7 @@ To start up Wordpad using your command prompt, you simple type write
 ### Start Word
 For Word, I had to go into my C drive since that is where the program is. To change Drives, just type in the Drive you want to go to and it works. For example, I want to go  from the H: Drive to the C: Drive:
 
-![Change drive](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/change_drive.png)
+![Change drive](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/change_drive.png)
 
 I need to access the file Winword.exe. However, just typing this in like we did with  Python and HTML files will not suffice. You also need to write start.
 
@@ -252,11 +252,11 @@ Calculate an MD5 checksum: certutil -hashfile [file name] MD5
 
 Calculate a SHA512 checksum: certutil -hashfile [file name] MD5
 
-![Calculate checksum](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/calculate_checksum.png)
+![Calculate checksum](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/calculate_checksum.png)
 
 You can also calculate a checksum on an entire folder using a batch script:
 
-![Calculate checksum Batch Script](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/calculate_checksum_batch_script.png)
+![Calculate checksum Batch Script](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/calculate_checksum_batch_script.png)
 
 Here is a breakdown of the script:
 * **@echo off**: This line turns off the command echoing in the batch script, meaning that  commands themselves won’t be printed to the console when they are executed.
@@ -270,7 +270,7 @@ Note that the certutil command can do a lot more. To see all the options, type c
   ### Cleaning the Window
 If you enter multiple commands, your window can get full and a bit cluttered. To get a clean state, you can use the clean screen command: cls
 
-![Clear screen](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/cleaning_the_window.png)
+![Clear screen](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/cleaning_the_window.png)
 
   ### Closing the command prompt
   To close the command prompt, you can close the window by clicking the x on the top  right. But the more correct way is to use the exit command. Simply type exit, press  ENTER, and the window will close.
@@ -323,10 +323,10 @@ The command-line interface for Linux is the Terminal. With the terminal you can 
   ### How to start the Terminal? 
 In the search bar in your OS, you can type either "terminal", "command", "prompt", or "shell". 
 
-![open terminal](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/open_terminal.png)
+![open terminal](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/open_terminal.png)
 
 Once opened, it looks like this: <br/>
-![terminal_openl](https://github.com/Susanne404/B-B-test/blob/main/cmd_guide/guide_resources/terminal_open.png)
+![terminal_openl](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2025/Command-Line%20Interface/cli_guide_images/terminal_open.png)
 
   ### Knowing where you are
 
