@@ -2,7 +2,7 @@
   <img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/website/bblogo.png" alt="Bits and Bots logo" width="250">
 </p>
 
-# Bits-and-Bots-Study-Group
+<h1 align="center">Bits and Bots Study Group</h1>
 See our website here: https://lotte-w.github.io/Bits-and-Bots-study-group/. 
 
 ## Who are we?
