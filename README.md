@@ -1,6 +1,6 @@
 |||||
 |:-:|:-:|:-:|:-:|
-|![First Image](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/website/bblogo.png)|![Second Image](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/Bits%20and%20Bots%20logo.jpg)|![Third Image](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/Bits%20and%20Bots%20logo.jpg)|![Fourth](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/Bits%20and%20Bots%20logo.jpg)|
+|![First Image](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/website/bblogo.png)|![Second Image](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/website/bblogo.png)|![Third Image](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/website/bblogo.png)|![Fourth](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/website/bblogo.png)|
 
 # Bits-and-Bots-Study-Group
 See our website here: https://lotte-w.github.io/Bits-and-Bots-study-group/. 
