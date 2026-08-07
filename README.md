@@ -1,5 +1,3 @@
-|||||
-|:-:|:-:|:-:|:-:|
 <p align="center">
   <img src="https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/media/website/bblogo.png" alt="Bits and Bots logo" width="250">
 </p>
